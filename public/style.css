@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.outputScreen {
+  border-style: solid;
+  border-color: #ff6680;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.buttonRow, .outputScreen {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.calculator {
+  background-color: pink;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 25px;
+}
+
+button{
+  width: 50px;
+  margin: 2px;
+}
