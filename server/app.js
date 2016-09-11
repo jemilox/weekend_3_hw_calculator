@@ -4,7 +4,9 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded( {extended: false});
 
-app.listen('3000', 'localhost', function () {
+var portDecision = process.env.PORT || 3000;
+
+app.listen( portDecision, function () {
   console.log("port 3000 is listening");
 });//end server up
 
